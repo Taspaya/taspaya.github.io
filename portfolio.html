@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>GerardArdit CV</title>
+
+<style >
+  .w3-hover-opacity {cursor: pointer;}
+</style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="./w3.css">
+</head><body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:20px">
+    <div class="w3-padding-64">
+      <h1>Gerard Ardit Castells CV</h1>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1><span style="background: yellow; color: red;">About Me</span></h1>
+      <img src="https://i.pinimg.com/originals/fe/00/18/fe00183fabb19da1a7f6c9d7732bfd94.png"  alt="Person" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+        <p>Born in 1996</p>
+        <p>Programmer.</p>
+        <p>Hard worker, Motivated, Communicative, Professional.</p>
+        <p>Videogame design and Development at Universitat Jaume I (UJI).</p>
+        <p>Digital Interactive Content Degree at ENTI - Universitat de Barcelona (UB).</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h2>My Work</h2>
+      <p>Some of my projects.</p>
+      <i>Click the image to see the video.</i >
+    </div>
+    <div class="w3-row">
+      <div class="w3-half">
+        <img src="https://i.pinimg.com/originals/c2/ec/22/c2ec222e75b3513f96c71a2f97d279fd.jpg" style="width:100%" onclick="openVideo(0)" class="w3-hover-opacity">
+      </div>
+      <div class="w3-half">
+        <img src="https://i.pinimg.com/originals/27/d0/a5/27d0a5448479d838233e920724baec8d.jpg" style="width:100%" onclick="openVideo(1)" class="w3-hover-opacity">
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="https://i.pinimg.com/originals/fb/63/31/fb6331d07c235311d2c696cd0ea0f805.jpg" style="width:100%" onclick="openVideo(2)" class="w3-hover-opacity">
+      </div>
+      <div class="w3-half">
+        <img src="https://i.pinimg.com/originals/27/19/95/271995fefa30764e4cf644c02e024e0e.jpg" style="width:100%" onclick="openVideo(3)" class="w3-hover-opacity">
+      </div>
+    </div>
+  </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:200px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Resume</h2>
+      <p style="color:407F7F;"><b>Academic Information</b></p>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+          <tbody><tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr class="w3-white">
+            <td>2018-2021</td>
+            <td>Design and development of videogames</td>
+            <td>Universitat Jaume I, Spain </td>
+          </tr>
+          <tr>
+            <td>2016-2018</td>
+            <td>Digital interactive content degree </td>
+            <td>ENTI-Universitat de Barcelona, Spain.</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2014-2016</td>
+            <td>Technological High School Diploma</td>
+            <td>Institut de Deltebre, Spain.</td>
+          </tr>
+        </tbody></table>
+
+        <p style="color:#A5C663;"><b>Personal & College Projects </b></p>
+
+        <table class="w3-table">
+          <tbody><tr>
+            <th>Year</th>
+            <th>Task</th>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Engine</th>
+          </tr>
+          <tr>
+            <td>2020</td>
+            <th>Producer, Developer, Programmer</th>
+            <td>Beers&Notes</td>
+            <td>3D, Puzzle, cooking</td>
+            <td>Unity 3D</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2019</td>
+            <th>Developer, Programmer</th>
+            <td>Age Of Chess</td>
+            <td>RTS, like Age of Emprires and chess</td>
+            <td>Unity 3D</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <th>Producer, Developer, Programmer</th>
+            <td>Featherless</td>
+            <td>3D, Adventure, RPG, Open World</td>
+            <td>Unreal Engine 4</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2017</td>
+            <th>Developer, Programmer</th>
+            <td>Our Duty</td>
+            <td>2D, Stealth, Platformer</td>
+            <td>Unity 2D</td>
+          </tr>
+        </tbody></table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  function openVideo(video)
+  {
+
+    switch(video) {
+  case 0:
+  //AOC
+  window.open("https://youtu.be/0rd8fDSmxl4");
+    // code block
+    break;
+  case 1:
+  window.open("https://www.youtube.com/watch?v=4flmDDZr4Y4");
+    // code block
+    break;
+  case 2:
+  window.open("https://youtu.be/vqo3xszsPwk");
+    // code block
+    break;
+  case 3:
+  window.open("https://youtu.be/wakTrzLAwsI");
+    // code block
+    break;
+  default:
+    // code block
+}
+
+  }
+</script>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contact">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:400px">
+    <div class="w3-padding-64">
+      <h1>Books</h1>
+    </div>
+    <div class="w3-left-align w3-padding-large">
+    <p> • Paul Deitel, Harvey Deitel, C++ How to Program, 2016 </p>
+    <p> • Weiss, Mark A., "Data structures and algorithm analysis in C++". Pearson, 2014.</p> 
+    <p> • Schell, Jesse, The Art of Game Design, Taylor & Francis Group, 2015</p> 
+    <p> • Koster, Raph, A Theory of fun, O’Relly Media, 2013</p> 
+    <p> • Swink, Steve, Game Feel, Elsevier, Inc., 2009</p> 
+    <p> • Marczewski, Andrzej, Even Ninja Monkeys Like to Play, Createspace, 2015</p> 
+    <p> • Rogers, Scott, Level Up!, Wiley </p> 
+    <p> • Andy Beane, 3D Animation Essentials, Wiley, 2012 </p>
+    <p> •  Todd Danielle, Poly-Modeling with 3ds Max: Thinking Outside of the Box, Focal Press, 2013 </p>
+    <p> •  And much more... </p>
+
+
+
+    </div>
+  </div>
+  <div class="w3-half w3-teal w3-container" style="height:200px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Contact</h1>
+      
+      <p class="w3-opacity">GET IN TOUCH</p>
+      <div class="w3-padding-64">
+
+      <p>Catalunya/C. Valenciana, Spain</p>
+      <p>+34 616532272 </p>
+      <p>gerardardit14@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+
+button {
+  margin:0 auto;
+  display:block;
+  background-color: #4CAF50;
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+
+}
+
+#panel {
+  padding: 5px;
+  display: none;
+}
+
+.w3-badge {height:25px;width:25px;padding:0}
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script><!-- Footer -->
+
+<footer class="w3-black">
+
+    <div class="container">
+
+      <div id="panel">
+        <h1>SKILLS:</h1>
+
+        <div > 
+            <img src="https://i.pinimg.com/originals/df/71/81/df71816d80bc0b033299b0e22c8d4628.png" style="width:10%;margin:11%"> 
+            
+            <img src="https://i.pinimg.com/originals/3d/0a/78/3d0a7895d565da377aefb3732cb114fa.png" style="width:10%;margin:11%">
+            
+            <img src="https://i.pinimg.com/originals/b8/c2/43/b8c2437a6dd089b7c6fc3b17b18e1805.png" style="width:10%;margin:11%">
+  
+<!--------------------------------------------------------------------------------------------------------------------------------------------->
+          <img src="https://i.pinimg.com/originals/a7/0c/f3/a70cf3888213b362be6fe16fe6907918.png" style="width:10%;margin:11%" >
+          
+          <img src="https://i.pinimg.com/originals/09/76/9e/09769e11988244c13d0a73c5915218af.png" style="width:10%;margin:11%">
+          
+          <img src="https://i.pinimg.com/originals/5d/bc/3d/5dbc3d7ea43118a1af04756b9f83044d.png" style="width:10%; margin:11%">
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+          <img src="https://i.pinimg.com/originals/4d/47/b8/4d47b8d1dd57d6068ce714102d089a1c.png" style="width:10%;margin:11%"> 
+          
+          <img src="https://i.pinimg.com/originals/ca/5a/68/ca5a68a421e44ab859f1a03302abbcbd.png" style="width:10%;margin:11%">
+          
+          <img src="https://i.pinimg.com/originals/c6/36/c4/c636c41c50991c41b09964186277c188.png" style="width:10%; margin:11%">
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+          <img src="https://i.pinimg.com/originals/a1/2a/fe/a12afefafc5dc213117c8a836127153e.png" style="width:10%;margin:11%">
+          
+          <img src="https://i.pinimg.com/originals/c8/6f/d4/c86fd4125077e1b8870ba2a3356ec79a.png" style="width:10%;margin:11%">
+          
+          <img src="https://i.pinimg.com/originals/f1/41/ac/f141acc4af7dd801f3f326d2f7516875.png" style="width:10%; margin:11%">
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+          <img src="https://i.pinimg.com/originals/51/7a/22/517a22a9bb868345160bb55b7fbb0d6b.png" style="width:10%;margin:11%">
+            
+          <img src="https://i.pinimg.com/originals/82/72/e3/8272e3d414e0c7081555630de7971cc3.png" style="width:10%;margin:11%">
+          
+
+        </div>
+
+      </div>
+
+    </div>
+</footer>
+
+
+    
+</body></html>
